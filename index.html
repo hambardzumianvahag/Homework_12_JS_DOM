@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		.main{
+			display: none;
+		}
+		.div4 {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			gap: 0.4rem;
+			width: 450px;
+			padding: 1.3rem;
+			min-height: 250px;
+			position: absolute;
+			top: 20%;
+			left: 400px;
+			background-color: white;
+			border: 1px solid #ddd;
+			border-radius: 15px;
+		}
+	</style>
+</head>
+
+<body>
+	<div>
+		<p class="first">First Question</p>
+		<div class="first_answer"></div>
+		<p class="second">Second Quesetion</p>
+		<div class="second_answer"></div>
+		<p class="third">Third Quesetion</p>
+		<div class="third_answer"></div>
+	</div>
+
+	<button class="btn1">Click Me</button>
+	<button class="btn2">Click Me Again</button>
+
+	<div class="main">
+		<div class="div4">
+			<span>Enter Your Name</span>
+			<input class="name" type="text"> <br>
+			<span>Enter Your Surname</span>
+			<input class="surname" type="text"> <br>
+			<span>Enter Your Email</span>
+			<input class='email' type="text"> <br>
+			<span>Enter Your Password</span>
+			<input class="pass" type="password"> <br>
+			<button class="send">Send</button>
+			<div class="result"></div>
+		</div>
+	</div>
+</body>
+<script src="./script.js"></script>
+
+</html>
